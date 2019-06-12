@@ -51,3 +51,18 @@ batch_size = 20
 epochs = 20  
 ![20batch_20epochs_resprop_mean_squared_logarithmic_error_2](https://user-images.githubusercontent.com/45307224/59324915-e0ffba80-8d1b-11e9-9bf1-2939a3276596.jpg)  
 
+
+# Model7  
+![10batch_20epochs_adagrad_mena_square_error](https://user-images.githubusercontent.com/45307224/59325842-849e9a00-8d1f-11e9-90f5-c8025982750c.jpg)  
+loss = 'mean_squared_logarithmic_error'  
+optimizer = 'rmsprop'  
+batch_size = 20  
+epochs = 20  
+![10batch_20epochs_adagrad_mena_square_error_2](https://user-images.githubusercontent.com/45307224/59325855-8ff1c580-8d1f-11e9-960e-2cd7f2d9c202.jpg)  
+
+
+# RESULT
+optimizer adagrad 는 rmsprop과 유사 하지만 주식데이터에는 rmsprop이 더 적합하고,
+
+loss function = 'mean_square_error'  
+optimizer = 'rmsprop' 을 가진 Model1 이 가장 잘 예측 한다.
