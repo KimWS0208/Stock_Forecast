@@ -1,13 +1,13 @@
 # Stock_Forecast
 Model1
 
-Layer (type)                 Output Shape              Param  
+Layer (type)               |  Output Shape        |      Param  
 
-lstm_5 (LSTM)                (None, 50, 50)            10400     
+lstm_5 (LSTM)              |  (None, 50, 50)      |      10400     
 
-lstm_6 (LSTM)                (None, 64)                29440     
+lstm_6 (LSTM)              |  (None, 64)          |      29440     
 
-dense_3 (Dense)              (None, 1)                 65        
+dense_3 (Dense)            |  (None, 1)           |      65        
 
 loss = 'mse'
 optimizer = 'rmsprop'
