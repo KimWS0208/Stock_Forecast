@@ -1,13 +1,7 @@
 # Stock_Forecast
 Model1
----------------------------------------------------------------
-Layer (type)                 Output Shape              Param  
----------------------------------------------------------------
-lstm_5 (LSTM)                (None, 50, 50)            10400     
+![10batch_20epochs_resprop_2](https://user-images.githubusercontent.com/45307224/59323652-8748c180-8d16-11e9-9e02-3410bf863f93.jpg)
 
-lstm_6 (LSTM)                (None, 64)                29440     
-
-dense_3 (Dense)              (None, 1)                 65        
 
 loss = 'mse'  
 optimizer = 'rmsprop'  
