@@ -62,7 +62,8 @@ epochs = 20
 
 
 # RESULT
-## optimizer adagrad 는 rmsprop과 유사 하지만 주식데이터에는 rmsprop이 더 적합하고,
+## optimizer adagrad 는 rmsprop과 유사 하지만 주식데이터에는  
+## rmsprop이 더 적합하고,
 
 ## loss function = 'mean_square_error'  
 ## optimizer = 'rmsprop' 을 가진 Model1 이 가장 잘 예측 한다.
