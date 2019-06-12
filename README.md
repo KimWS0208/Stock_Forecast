@@ -16,26 +16,34 @@ epochs = 20
 ![20batch_20epochs_resprop_2](https://user-images.githubusercontent.com/45307224/59323816-3a191f80-8d17-11e9-8bdc-99cf192f42b0.jpg)  
 
 # Model3  
+![20batch_20epochs_resprop_mean_absolute_error_2](https://user-images.githubusercontent.com/45307224/59324371-92e9b780-8d19-11e9-89c7-faad7a81bc7f.jpg)
+loss = 'mean_absolute_error'  
+optimizer = 'rmsprop'  
+batch_size = 20  
+epochs = 20  ![20batch_20epochs_resprop_mean_absolute_error](https://user-images.githubusercontent.com/45307224/59324374-9bda8900-8d19-11e9-8811-4507ba7168ca.jpg)  
 
+
+# Model4  
+![10batch_20epochs_resprop_mean_absolute_error_2](https://user-images.githubusercontent.com/45307224/59324658-d55fc400-8d1a-11e9-8f47-6968b4c0d71f.jpg)  
 loss = 'mean_absolute_error'  
 optimizer = 'rmsprop'  
 batch_size = 10  
 epochs = 20  
-
-# Model4  
-
-loss = 'mse'  
-optimizer = 'rmsprop'  
-batch_size = 10  
-epochs = 20  
+![10batch_20epochs_resprop_mean_absolute_error](https://user-images.githubusercontent.com/45307224/59324665-df81c280-8d1a-11e9-8c94-1453f990f5b4.jpg)  
 
 # Model5  
-
-loss = 'mse'  
-optimizer = 'rmsprop'  
+![20batch_20epochs_adam_mean_absolute_error_2](https://user-images.githubusercontent.com/45307224/59324438-e78d3280-8d19-11e9-9a9a-f89dcf200dee.jpg)  
+loss = 'mean_absolute_error'  
+optimizer = 'adam'  
 batch_size = 10  
 epochs = 20  
+![20batch_20epochs_adam_mean_absolute_error](https://user-images.githubusercontent.com/45307224/59324448-efe56d80-8d19-11e9-9d7f-2b4617fcaa82.jpg)  
 
+# Model6  
 
+loss = 'mean_squared_logarithmic_error'  
+optimizer = 'rmsprop'  
+batch_size = 20  
+epochs = 20  
 
 
