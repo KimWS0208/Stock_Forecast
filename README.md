@@ -1,2 +1,3 @@
 # Stock_Forecast
-![Alt text](C:/Users/user/Desktop/VSC/StockForecast/10batch_20epochs_resprop.jpg "Optional title")
+![10batch_20epochs_resprop](https://user-images.githubusercontent.com/45307224/59323304-181e9d80-8d15-11e9-98c6-1d26a7637bcd.jpg)
+
