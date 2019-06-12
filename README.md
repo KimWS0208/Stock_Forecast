@@ -66,5 +66,5 @@ epochs = 20
 ## rmsprop이 더 적합하고,
 
 ## loss function = 'mean_square_error'  
-## optimizer = 'rmsprop'   
+## optimizer = 'rmsprop' 인  
 ## Model1 이 가장 잘 예측 한다.
